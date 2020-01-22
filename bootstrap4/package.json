@@ -4,8 +4,12 @@
   "description": "Curso Bootstrap 4 - FullStack Coursera",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    	"dev": "lite-server",
+	"test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Quetzal Meneghetti",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
 }
